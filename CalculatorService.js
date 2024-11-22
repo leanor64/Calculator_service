@@ -1,7 +1,7 @@
 var http = require ('http');
 var request = require('sync-request');
 
-const PORT = 50050;
+const PORT = 80;
 const service_ip = '192.168.37.16';
 
 const SUM_SERVICE_IP_PORT = 'http://'+service_ip+':31001';

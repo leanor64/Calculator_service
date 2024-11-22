@@ -124,6 +124,7 @@ http.createServer (function(req, resp) {
 				console.log(body + " = " + res);
 				console.log("\r\n");
 				resp.write("result = " + res);
+				resp.write("triggers");
 				resp.write("\r\n");
 			}
 			resp.end();

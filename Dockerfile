@@ -16,6 +16,6 @@ RUN npm install
 RUN npm install sync-request 
 
 
-EXPOSE 50050
+EXPOSE 80
 
 CMD [ "node", "CalculatorService.js" ]
